@@ -11,6 +11,7 @@ Configure persistent system bootup messages.
 * [Supported Operating Systems](#supported-operating-systems)
 * [Quick Start](#quick-start)
     * [Use From Playbook](#use-from-playbook)
+* [Role Options](#role-options)
 * [Contributing](#contributing)
 
 ## Purpose
@@ -51,6 +52,12 @@ Configure persistent system bootup messages.
          ansible.builtin.include_role:
            name: ans_role_config_boot_messages
    ```
+
+## Role Options
+
+See the role `defaults` file, for overridable vars:
+
+  * [defaults/main.yml](../defaults/main.yml)
 
 ## Contributing
 

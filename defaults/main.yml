@@ -1,0 +1,3 @@
+# systemd conf file to configure persistent boot messages
+systemd_conf_file: "/etc/systemd/system/getty@tty1.service.d/noclear.conf"
+
