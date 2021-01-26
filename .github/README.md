@@ -3,7 +3,7 @@
 Configure persistent system bootup messages.
 
 [![Release](https://img.shields.io/github/release/digimokan/ans_role_config_boot_messages.svg?label=release)](https://github.com/digimokan/ans_role_config_boot_messages/releases/latest "Latest Release Notes")
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?label=license)](LICENSE.txt "Project License")
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?label=license)](LICENSE.md "Project License")
 
 ## Table Of Contents
 
