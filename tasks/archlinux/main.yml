@@ -5,6 +5,8 @@
     owner: 'root'
     group: 'root'
     mode: '755'
+  become: true
+  become_user: root
 
 - name: "Disable systemd bootup-screen-clearing"
   ansible.builtin.template:
