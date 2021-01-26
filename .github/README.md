@@ -9,10 +9,8 @@ Configure persistent system bootup messages.
 
 * [Purpose](#purpose)
 * [Supported Operating Systems](#supported-operating-systems)
-* [Requirements](#requirements)
 * [Quick Start](#quick-start)
     * [Use From Playbook](#use-from-playbook)
-* [Role Options](#role-options)
 * [Contributing](#contributing)
 
 ## Purpose
@@ -22,10 +20,6 @@ Configure persistent system bootup messages.
 ## Supported Operating Systems
 
 * Arch Linux.
-
-## Requirements
-
-* GRUB.
 
 ## Quick Start
 
@@ -57,12 +51,6 @@ Configure persistent system bootup messages.
          ansible.builtin.include_role:
            name: ans_role_config_boot_messages
    ```
-
-## Role Options
-
-Define these _required_ vars for the role:
-
-  * `user_name`: user login name to configure the XDG user dirs for
 
 ## Contributing
 
