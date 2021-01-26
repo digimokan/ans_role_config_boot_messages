@@ -1,0 +1,11 @@
+- name: "Disable systemd bootup-screen-clearing"
+  ansible.builtin.template:
+    dest: "/etc/systemd/system/getty@tty1.service.d/noclear.conf"
+    src: 'noclear_conf.j2'
+    owner: 'root'
+    group: 'root'
+    mode: '644'
+    force: yes
+  become: true
+  become_user: root
+
